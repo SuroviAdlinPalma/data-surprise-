@@ -5,6 +5,8 @@ function openQuestion() {
 
 function sayYes() {
 
+    alert("YES clicked!");
+
     confetti({
         particleCount: 200,
         spread: 120,
