@@ -4,11 +4,15 @@ function openQuestion() {
 }
 
 function sayYes() {
-    document.getElementById('questionScreen').style.display = 'none';
-    document.getElementById('successScreen').style.display = 'block';
 
-    // Simple celebration effect
-    alert('Yay! Bless said YES! 💖');
+    confetti({
+        particleCount: 200,
+        spread: 120,
+        origin: { y: 0.6 }
+    });
+
+    document.getElementById("questionScreen").style.display = "none";
+    document.getElementById("successScreen").style.display = "block";
 }
 
 // Make the NO button move away
