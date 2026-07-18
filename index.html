@@ -1,1 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Little Surprise ❤️</title>
 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="hearts"></div>
+
+<div class="container">
+
+    <!-- First Screen -->
+    <div id="firstScreen">
+        <h1>💌</h1>
+
+        <h2>Hey Bless ❤️</h2>
+
+        <p>
+            Someone has something really special to ask you...
+        </p>
+
+        <button onclick="openQuestion()">
+            Open the Surprise ✨
+        </button>
+    </div>
+
+    <!-- Second Screen -->
+    <div id="questionScreen" style="display:none;">
+
+        <h1>🥺❤️</h1>
+
+        <h2>Will you go on a date with me?</h2>
+
+        <p>
+            I promise it'll be full of smiles, laughter and beautiful memories. 🌹
+        </p>
+
+        <div class="buttons">
+            <button class="yes" onclick="sayYes()">
+                YES 💖
+            </button>
+
+            <button id="noBtn" class="no">
+                NO 🙈
+            </button>
+        </div>
+
+    </div>
+
+    <!-- Final Screen -->
+    <div id="successScreen" style="display:none;">
+
+        <h1>🎉❤️</h1>
+
+        <h2>YAYYYYY!!</h2>
+
+        <p>
+            You just made Bhebla the happiest person today! 🥹💕
+        </p>
+
+        <p>
+            I can't wait to spend this special day with you.
+        </p>
+
+        <h3>
+            ❤️ From your favourite person,<br>
+            <span>Bhebla</span>
+        </h3>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
